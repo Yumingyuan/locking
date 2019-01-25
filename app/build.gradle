@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId 'buaa.irisking.irisapp'
+        minSdkVersion 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation files('libs/IrisAlgo.jar')
+    implementation files('libs/jpeg.jar')
+    implementation files('libs/AndroidFpManager.jar')
+}
