@@ -1,12 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
@@ -15,23 +9,20 @@ INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:6:5-30
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:2:11-69
 	android:largeHeap
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:5:3-29
 uses-sdk
 ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:8:5-47
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:8:5-47
-INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:8:5-47
 	android:targetSdkVersion
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:8:15-44
 	android:minSdkVersion
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
-		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:8:5-47
 		INJECTED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.FLASHLIGHT
 ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:10:5-69
@@ -83,12 +74,12 @@ ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:25
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:29:9-41
 	android:hardwareAccelerated
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:27:9-44
-	android:largeHeap
-		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:30:9-33
-	android:icon
-		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:28:9-45
 	android:allowBackup
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:26:9-35
+	android:icon
+		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:28:9-45
+	android:largeHeap
+		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:30:9-33
 	android:theme
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:31:9-40
 activity#buaa.irisking.scanner.MainActivity
@@ -101,7 +92,7 @@ ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:32
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:34:13-74
 	android:name
 		ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:33:13-62
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
 ADDED from D:\2019.1\android\locking\locking\app\src\main\AndroidManifest.xml:38:17-69
